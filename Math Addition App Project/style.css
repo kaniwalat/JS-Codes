@@ -1,0 +1,59 @@
+body {
+    background: lightskyblue;
+}
+
+#canvas {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    width: 700px;
+    height: 300px;
+    margin: 50px auto;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
+
+#primary-number, #secondary-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+#primary-number {
+    border: 4px solid green;
+}
+
+#secondary-number {
+    border: 4px solid blue;
+}
+
+#add, #equal {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+input {
+    border: 2px solid cyan;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn {
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    background: red;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid lightgrey;
+}

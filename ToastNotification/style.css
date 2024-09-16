@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#wrapper {
+    display: grid;
+    place-items: center;
+     font-family: 'Courier New', Courier, monospace;
+     position: fixed;
+     top: 15px;
+     right: 15px;
+}
+
+#btnToast {
+    color: white;
+    background-color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 300px;
+    border: 15px solid rgb(116, 13, 218);
+    border-radius: 50px;
+    outline: none;
+    padding: 0.7rem;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    color: #fff;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 25px;
+    margin: 0.5rem;
+    z-index: 2;
+}

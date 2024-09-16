@@ -1,0 +1,29 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border: 3px solid salmon;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+p {
+    font-size: 35px;
+}
+
+#btn:hover {
+    background-color: green;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    transition: 600ms ease-in all;
+}

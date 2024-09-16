@@ -1,0 +1,37 @@
+body {
+    background-color: salmon;
+}
+form {
+    background-color: blue;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pounds {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+form p {
+    font-size: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.no-error {
+    color: rgb(0, 255, 0);
+}

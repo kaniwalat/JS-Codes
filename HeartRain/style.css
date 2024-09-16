@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+}
+
+#txt {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heart {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation-name: fall;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}

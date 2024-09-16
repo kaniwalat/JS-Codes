@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#sounds-bar {
+    height: 300px;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: rgb(70, 56, 80);
+    background-image: url("./images/play-button.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50px 50px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    outline: none;
+    border-radius: 25px;
+}
+
+.btn-stop, .btn-pause {
+    background-color: rgb(70, 56, 80);
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 15px 50px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}

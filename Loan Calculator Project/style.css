@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom left, lightgreen, lightblue);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.input {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkred;
+    border: 2px solid darkorange;
+    border-radius: 7px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.payment {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid darkorange;
+    border-radius: 7px;
+    color: darkblue;
+    background-color: aliceblue;
+}
